@@ -1,32 +1,17 @@
-# SparkPlayer音频播放器
+### :rocket:SparkPlayer音频播放器![](https://img.shields.io/badge/Qt-222222?style=for-the-badge&logo=Qt&logoColor=41CD52)
+> 项目使用了Qt的 `QMediaPlayer` 和 `QVideoWidget` 等`Qt`多媒体组件, `.pro` 文件中引入了` multimedia `和 `multimediawidgets` 模块这是Qt自带的多媒体播放解决方案
+
+### :robot: [体验](https://github.com/Qrhyun/SparkPlayer/blob/main/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/debug/spark_player.exe)
+
+
 ![](./image/out.png)
-## 总体框架图
+### :construction:总体框架图
 ![总体框架图](./image/总体规划.png)
-## 详细框架图（按文件组织）
+## :beers:详细框架图（按文件组织）
 ![详细框架图](./image/详细设计.png)
-## 文件功能说明
-1. main.cpp
-- 程序入口
-- QApplication初始化
-- 主窗口创建和显示
-2. player.h
-- 类声明和成员定义
-- 信号槽声明
-- 功能接口定义
-3. player.cpp
-- 核心功能实现
-- 信号槽连接
-- 事件处理
-- 界面逻辑
-4. player.ui
-- 界面布局设计
-- 控件布局和属性
-- 基础样式定义
-5. clickableslider.h
-- 自定义滑块控件
-- 进度条点击支持
-- 音量控制支持
-## 核心功能
+
+### :construction_worker:核心功能
+```md
 - 视频播放控制功能---包含播放/暂停，停止，快进，快退
 - 播放列表管理---包含添加，删除，双击播放文件
 - 预览功能---包含鼠标移动到进度条，计算预览位置，显示预览窗口和时间标签
@@ -41,3 +26,5 @@
 - 配置管理，UI主题定制
 - 错误处理机制---涉及更新UI状态
 - 拖放文件支持---分单个文件（直接播放），多个文件（添加到播放列表）， 还有不支持
+```
+
