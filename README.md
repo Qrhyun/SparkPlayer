@@ -1,4 +1,5 @@
-# SparkPlayer
+# SparkPlayer音频播放器
+![](./image/out.png)
 ## 总体框架图
 ![总体框架图](./image/总体规划.png)
 ## 详细框架图（按文件组织）
